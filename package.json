@@ -1,0 +1,13 @@
+{
+  "name": "kafka-miniproject",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Kafka demo with Docker Compose and KafkaJS",
+  "scripts": {
+    "producer": "node src/js/producer.js",
+    "consumer": "node src/js/consumer.js"
+  },
+  "dependencies": {
+    "kafkajs": "2.2.4"
+  }
+}
